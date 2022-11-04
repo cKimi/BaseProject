@@ -12,6 +12,7 @@
 		0F27A107291485E700E5D2B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F27A106291485E700E5D2B3 /* Assets.xcassets */; };
 		0F27A10A291485E700E5D2B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F27A108291485E700E5D2B3 /* LaunchScreen.storyboard */; };
 		0F27A116291487E400E5D2B3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F27A115291487E400E5D2B3 /* BaseViewController.swift */; };
+		0F27A1192914915700E5D2B3 /* ViewCodeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F27A1182914915700E5D2B3 /* ViewCodeConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0F27A109291485E700E5D2B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0F27A10B291485E700E5D2B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F27A115291487E400E5D2B3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		0F27A1182914915700E5D2B3 /* ViewCodeConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				0F27A1122914867F00E5D2B3 /* Base */,
+				0F27A1172914911A00E5D2B3 /* Helpers */,
 				0F27A113291487C500E5D2B3 /* Features */,
 				0F27A1112914866D00E5D2B3 /* Resources */,
 			);
@@ -94,6 +97,14 @@
 				0F27A115291487E400E5D2B3 /* BaseViewController.swift */,
 			);
 			path = BaseScene;
+			sourceTree = "<group>";
+		};
+		0F27A1172914911A00E5D2B3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0F27A1182914915700E5D2B3 /* ViewCodeConfiguration.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F27A1192914915700E5D2B3 /* ViewCodeConfiguration.swift in Sources */,
 				0F27A0FE291485E600E5D2B3 /* AppDelegate.swift in Sources */,
 				0F27A100291485E600E5D2B3 /* SceneDelegate.swift in Sources */,
 				0F27A116291487E400E5D2B3 /* BaseViewController.swift in Sources */,
