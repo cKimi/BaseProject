@@ -14,6 +14,7 @@
 		0F27A116291487E400E5D2B3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F27A115291487E400E5D2B3 /* BaseViewController.swift */; };
 		0F27A1192914915700E5D2B3 /* ViewCodeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F27A1182914915700E5D2B3 /* ViewCodeConfiguration.swift */; };
 		0F8E4888291A94AB00D5A2BA /* ItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8E4887291A94AB00D5A2BA /* ItemAnimation.swift */; };
+		0F8E488C291A969100D5A2BA /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8E488B291A969100D5A2BA /* Badge.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		0F27A115291487E400E5D2B3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		0F27A1182914915700E5D2B3 /* ViewCodeConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeConfiguration.swift; sourceTree = "<group>"; };
 		0F8E4887291A94AB00D5A2BA /* ItemAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemAnimation.swift; sourceTree = "<group>"; };
+		0F8E488B291A969100D5A2BA /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				0F27A1172914911A00E5D2B3 /* Helpers */,
 				0F27A113291487C500E5D2B3 /* Features */,
 				0F8E4886291A949800D5A2BA /* Animations */,
+				0F8E488A291A968200D5A2BA /* Components */,
 				0F27A1112914866D00E5D2B3 /* Resources */,
 			);
 			path = BaseProject;
@@ -116,6 +119,14 @@
 				0F8E4887291A94AB00D5A2BA /* ItemAnimation.swift */,
 			);
 			path = Animations;
+			sourceTree = "<group>";
+		};
+		0F8E488A291A968200D5A2BA /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0F8E488B291A969100D5A2BA /* Badge.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -189,6 +200,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F27A1192914915700E5D2B3 /* ViewCodeConfiguration.swift in Sources */,
+				0F8E488C291A969100D5A2BA /* Badge.swift in Sources */,
 				0F27A0FE291485E600E5D2B3 /* AppDelegate.swift in Sources */,
 				0F27A100291485E600E5D2B3 /* SceneDelegate.swift in Sources */,
 				0F27A116291487E400E5D2B3 /* BaseViewController.swift in Sources */,
