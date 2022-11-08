@@ -13,6 +13,7 @@
 		0F27A10A291485E700E5D2B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0F27A108291485E700E5D2B3 /* LaunchScreen.storyboard */; };
 		0F27A116291487E400E5D2B3 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F27A115291487E400E5D2B3 /* BaseViewController.swift */; };
 		0F27A1192914915700E5D2B3 /* ViewCodeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F27A1182914915700E5D2B3 /* ViewCodeConfiguration.swift */; };
+		0F8E4888291A94AB00D5A2BA /* ItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8E4887291A94AB00D5A2BA /* ItemAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		0F27A10B291485E700E5D2B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0F27A115291487E400E5D2B3 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		0F27A1182914915700E5D2B3 /* ViewCodeConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeConfiguration.swift; sourceTree = "<group>"; };
+		0F8E4887291A94AB00D5A2BA /* ItemAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				0F27A1122914867F00E5D2B3 /* Base */,
 				0F27A1172914911A00E5D2B3 /* Helpers */,
 				0F27A113291487C500E5D2B3 /* Features */,
+				0F8E4886291A949800D5A2BA /* Animations */,
 				0F27A1112914866D00E5D2B3 /* Resources */,
 			);
 			path = BaseProject;
@@ -105,6 +108,14 @@
 				0F27A1182914915700E5D2B3 /* ViewCodeConfiguration.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0F8E4886291A949800D5A2BA /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				0F8E4887291A94AB00D5A2BA /* ItemAnimation.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +192,7 @@
 				0F27A0FE291485E600E5D2B3 /* AppDelegate.swift in Sources */,
 				0F27A100291485E600E5D2B3 /* SceneDelegate.swift in Sources */,
 				0F27A116291487E400E5D2B3 /* BaseViewController.swift in Sources */,
+				0F8E4888291A94AB00D5A2BA /* ItemAnimation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
