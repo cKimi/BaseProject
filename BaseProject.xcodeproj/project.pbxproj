@@ -15,6 +15,7 @@
 		0F27A1192914915700E5D2B3 /* ViewCodeConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F27A1182914915700E5D2B3 /* ViewCodeConfiguration.swift */; };
 		0F8E4888291A94AB00D5A2BA /* ItemAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8E4887291A94AB00D5A2BA /* ItemAnimation.swift */; };
 		0F8E488C291A969100D5A2BA /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8E488B291A969100D5A2BA /* Badge.swift */; };
+		0F8E488E291A984500D5A2BA /* BounceAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8E488D291A984500D5A2BA /* BounceAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		0F27A1182914915700E5D2B3 /* ViewCodeConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCodeConfiguration.swift; sourceTree = "<group>"; };
 		0F8E4887291A94AB00D5A2BA /* ItemAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemAnimation.swift; sourceTree = "<group>"; };
 		0F8E488B291A969100D5A2BA /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
+		0F8E488D291A984500D5A2BA /* BounceAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BounceAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				0F8E4887291A94AB00D5A2BA /* ItemAnimation.swift */,
+				0F8E488D291A984500D5A2BA /* BounceAnimation.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				0F8E488C291A969100D5A2BA /* Badge.swift in Sources */,
 				0F27A0FE291485E600E5D2B3 /* AppDelegate.swift in Sources */,
 				0F27A100291485E600E5D2B3 /* SceneDelegate.swift in Sources */,
+				0F8E488E291A984500D5A2BA /* BounceAnimation.swift in Sources */,
 				0F27A116291487E400E5D2B3 /* BaseViewController.swift in Sources */,
 				0F8E4888291A94AB00D5A2BA /* ItemAnimation.swift in Sources */,
 			);
